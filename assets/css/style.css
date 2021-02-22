@@ -1,0 +1,482 @@
+/* css padding margins */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  /* font-family: sourceSans-regular; */
+  font-family: openSans-regular;
+  /* font-family: sourceSans-bold; */
+  /* font-family: sourceSans-extralight; */
+}
+
+` @font-face {
+  font-family: openSans-regular;
+  src: url(../fonts/opensans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: openSans-bold;
+  src: url(../fonts/opensans/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: openSans-italic;
+  src: url(../fonts/opensans/OpenSans-Italic.ttf);
+}
+@font-face {
+  font-family: openSans-semibold;
+  src: url(../fonts/opensans/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: sourceSans-regular;
+  src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+@font-face {
+  font-family: sourceSans-bold;
+  src: url(../fonts/SourceSansPro-Bold.ttf);
+}
+@font-face {
+  font-family: sourceSans-light;
+  src: url(../fonts/SourceSansPro-Light.ttf);
+}
+@font-face {
+  font-family: sourceSans-extralight;
+  src: url(../fonts/SourceSansPro-ExtraLight.ttf);
+}
+
+/* Main properties */
+
+.d-flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-column {
+  flex-direction: column;
+}
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
+}
+.h-100 {
+  height: 100%;
+}
+.page-area {
+  max-width: 1140px;
+}
+.bottom-page-area {
+  width: 1160px;
+}
+.ds-block {
+  display: block;
+  overflow: hidden;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.item-center {
+  align-items: center;
+}
+.flex-50 {
+  flex-basis: 50%; /* alternate or write it as proper or make a comment to explain */
+}
+.flex-1 {
+  flex: 1;
+}
+.index-1 {
+  z-index: 1;
+}
+.index-0 {
+  z-index: 0;
+}
+.m-5 {
+  margin: 5px;
+}
+.m-10 {
+  margin: 10px;
+}
+.m-20 {
+  margin: 20px;
+}
+.p-5 {
+  padding: 5px; /* 0.3rem */
+}
+.p-10 {
+  padding: 10px; /* 0.625rem */
+}
+.p-20 {
+  padding: 20px;
+}
+.px-5 {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.py-5 {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.m-auto {
+  margin: auto;
+}
+.m-x-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+.m-y-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.my-5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.ps-relative {
+  position: relative;
+}
+.ps-absolute {
+  position: absolute;
+}
+.btn {
+  font-size: 16px;
+  font-family: sourceSans-bold;
+  letter-spacing: 3.5px;
+  width: 257px;
+  min-height: 38px;
+  border: 1px solid #0c9ddd;
+}
+.read-more-button {
+  min-height: 38px;
+  width: 155px;
+  border: 1px solid #0facf1;
+}
+
+/* fonts */
+
+.fw-bold {
+  font-weight: bold;
+}
+.fw-light {
+  font-weight: lighter;
+}
+.no-underline {
+  text-decoration: none;
+}
+.li-style-none {
+  list-style: none;
+}
+.open-bold {
+  font-family: openSans-bold;
+}
+.open-semibold {
+  font-family: openSans-semibold;
+}
+.ss-bold {
+  font-family: sourceSans-bold;
+}
+.ss-light {
+  font-family: sourceSans-light;
+}
+.open-italic {
+  font-family: openSans-italic;
+}
+/* colors */
+
+.bg-skyblue {
+  background-color: #0facf1;
+}
+.bg-darkblue {
+  background-color: #0c9ddd;
+}
+.text-darkblue {
+  color: #0c9ddd;
+}
+.text-skyblue {
+  color: #0facf1;
+}
+.bg-ghost-white {
+  background-color: #f1f1f2;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.bg-black-pearl {
+  background-color: #191d1f;
+}
+.bg-smoke-grey {
+  background-color: #1f1f1f;
+}
+.text-white {
+  color: #ffffff;
+}
+.text-gray {
+  color: gray;
+}
+
+/* Main Body */
+
+@media screen and (min-width: 1440px) {
+  .container {
+    margin: auto;
+    max-width: 1440px;
+  }
+}
+nav {
+  min-height: 75px;
+}
+.fixed-area {
+  width: 1140px;
+}
+.nav_heading {
+  font-size: 23px;
+}
+.nav_links {
+  padding: 20px;
+}
+.dental_section {
+  position: relative;
+}
+.dental_section img {
+  width: 100%;
+  position: relative;
+}
+.dental_heading {
+  font-size: 20 px;
+  position: absolute;
+  top: 60px;
+}
+.dental_heading h1 {
+  font-size: 72px;
+  font-family: sourceSans-bold;
+  font-weight: lighter;
+  letter-spacing: 0.45px;
+}
+.dental_heading p {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-family: sourceSans-regular;
+  letter-spacing: 0.4px;
+}
+.dental_card_box {
+  position: relative;
+  top: -50px;
+}
+.dental_card {
+  width: 285px;
+  height: 314px;
+}
+.dental_card img {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.card_text {
+  margin-bottom: 50px;
+}
+.dental_welcome {
+  height: 480px;
+  position: relative;
+  top: -100px;
+}
+.welcome_text {
+  max-width: 600px;
+}
+.welcome_text h3 {
+  font-size: 35px;
+}
+.welc_underline {
+  width: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.dream_section {
+  max-width: 1140px;
+}
+.dream_card {
+  width: 560px;
+  height: 612px;
+  object-fit: cover;
+  position: relative;
+}
+.dream_circle {
+  width: 230px;
+  height: 230px;
+  object-fit: fill;
+  border: 5px solid #0facf1;
+  border-radius: 100%;
+  position: relative;
+  bottom: -5px;
+  right: 110px;
+}
+.dream_card1 {
+  max-width: ;
+}
+.dream_card1 h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.dream_card1 button {
+  width: 155px;
+  height: 40px;
+}
+.dream_info_cards img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+.dream_info_card button {
+  height: 40px;
+  width: 155px;
+  margin-top: 20px;
+  border: solid #0facf1;
+}
+.appointment_banner {
+  min-height: 325px;
+  margin-top: 75px;
+  margin-bottom: 55px;
+}
+.appointment_text button {
+  width: 212px;
+  min-height: 40px;
+  margin-top: 10px;
+  border: 1px solid #ffffff;
+}
+.appointment_text h2 {
+  font-size: 35px;
+}
+.care__main_img {
+  height: 508px;
+  width: 560px;
+  object-fit: cover;
+}
+.circle_img {
+  width: 245px;
+  height: 245px;
+  object-fit: cover;
+  border: 4px solid #0facf1;
+  border-radius: 100%;
+  top: 355px;
+  left: -135px;
+}
+.care__section_text_box {
+  margin-right: 100px;
+}
+.care__section_text_box h4 {
+  font-family: sourceSans-light;
+}
+.care__section_text_box h2 {
+  font-size: 35px;
+}
+.care__section_text_box p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.slider_section {
+  min-height: 435px;
+  margin-top: 160px;
+  margin-bottom: 85px;
+}
+.slider_card img {
+  width: 220px;
+  height: 240px;
+  object-fit: cover;
+  margin: 5px;
+}
+.technology_main_img {
+  width: 570px;
+  height: 600px;
+  object-fit: cover;
+}
+.technology_circle_img {
+  width: 280px;
+  height: 280px;
+  border: 4px solid #0facf1;
+  border-radius: 100%;
+  top: 80px;
+  right: -150px;
+}
+.technology_text_box {
+}
+.technology_text_box h2 {
+  margin-bottom: 60px;
+  font-size: 48px;
+  line-height: 45px;
+}
+.technology_text_box button {
+  margin-top: 45px;
+}
+.technology_text_box {
+  margin-left: 110px;
+}
+.our_services {
+  min-height: 820px;
+  display: block;
+  overflow: hidden;
+}
+.our_services_heading {
+  margin-top: 45px;
+}
+.our_services_heading h6 {
+  font-size: 20px;
+}
+.our_services_heading {
+  /* font-size: 42px; */
+  margin-bottom: 20px;
+}
+.our_services_card {
+  width: 360px;
+  min-height: 280px;
+  margin: 10px;
+}
+.our_services_card_box_text {
+  padding: 30px;
+}
+.our_services_card_box_text p {
+  margin-top: 12px;
+  font-family: openSans-italic;
+  font-weight: bold;
+}
+.our_team_heading {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.our_team_heading h2 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.our_team_card_box {
+  margin-bottom: 55px;
+}
+.our_team_cards {
+  margin: 10px;
+  max-width: 350px;
+  min-height: 490px;
+}
+.our_team_cards img {
+  width: 350px;
+  height: 355px;
+  object-fit: cover;
+  object-position: top;
+}
+.our_team_cards h3 {
+  font-size: 20px;
+}
+.footer_soical_links {
+  min-height: 210px;
+}
+.footer_social_buttons img {
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  object-fit: fill;
+}
